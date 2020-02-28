@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.stx.xhb.xbanner.XBanner
+        android:layout_width="match_parent"
+        android:id="@+id/shenghuo_banner"
+        android:layout_height="@dimen/dp150"></com.stx.xhb.xbanner.XBanner>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="品质生活"
+        android:id="@+id/tv_pzsh"
+        android:layout_below="@id/shenghuo_banner"
+        android:background="@drawable/rxxp"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:layout_height="@dimen/dp40" />
+    <GridView
+        android:layout_width="match_parent"
+        android:numColumns="2"
+        android:layout_below="@id/tv_pzsh"
+        android:id="@+id/gv"
+        android:layout_height="match_parent"></GridView>
+</RelativeLayout>
